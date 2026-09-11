@@ -1,0 +1,17 @@
+def lambda_handler(event, context):  
+    # 1. Extract order_id from the nested Bedrock Flow event structure 
+    order_id = 'UNKNOWN' 
+    for item in event.get('node', {}).get('inputs', []): 
+        if item.get('name') == 'order_id': order_id = item.get('value') 
+ 
+    # 2. Mock database for demonstration  
+    db = {  
+        "ORD10025": {"status": "Shipped", "delivery": "25-Aug-2026"},  
+        "ORD10078": {"status": "Processing", "delivery": "28-Aug-2026"}  
+    }   
+ 
+    # 3. Lookup the order and return the result back to Bedrock Flow  
+    response = db.get(order_id, {"status": "Not Found", "delivery": "N/A"}) 
+    response["order_id"] = order_id 
+     
+    return response 

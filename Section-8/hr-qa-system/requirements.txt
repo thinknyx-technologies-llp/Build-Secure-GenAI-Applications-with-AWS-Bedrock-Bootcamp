@@ -1,0 +1,6 @@
+PyPDF2
+tiktoken
+boto3
+python-dotenv
+opensearch-py
+bedrock-agentcore

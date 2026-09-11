@@ -1,0 +1,9 @@
+refund_amount = purchase_amount * 0.90 
+ 
+result = { 
+    "original_amount": purchase_amount, 
+    "refund_amount": refund_amount, 
+    "restocking_fee": purchase_amount * 0.10 
+} 
+ 
+result

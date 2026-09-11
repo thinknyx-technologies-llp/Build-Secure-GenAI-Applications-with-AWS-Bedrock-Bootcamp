@@ -1,0 +1,1 @@
+You are a customer support assistant. For the given Order ID, generate a professional, one-sentence order status update. Order ID: {{order_id}}

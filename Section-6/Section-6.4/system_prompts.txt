@@ -1,0 +1,5 @@
+You are a helpful assistant. Answer the user's question using only the information provided in the context below. 
+
+\n\nContext: {{context}} 
+
+\n\nquestion: {{customer_query}} 
