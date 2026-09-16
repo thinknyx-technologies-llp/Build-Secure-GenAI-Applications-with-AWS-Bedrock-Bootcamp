@@ -1,6 +1,6 @@
 # Build & Secure GenAl Applications with AWS Bedrock: Bootcamp
 
-## Check our all courses at [ThinkRook](https://thinkrook.com)
+## Check our all courses at [ThinkRook](https://www.thinkrook.com/)
 
 Generative AI is transforming how we build software, and Amazon Bedrock provides a unified, secure platform to scale these applications using foundational models. In this course, you will learn Amazon Bedrock from the ground up, starting with an introduction to its key features, console navigation, and industry applications.
 
